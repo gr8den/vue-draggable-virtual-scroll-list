@@ -57,6 +57,9 @@ var DraggableVirtualList = /** @class */ (function (_super) {
         Prop()
     ], DraggableVirtualList.prototype, "value", void 0);
     __decorate([
+        Prop()
+    ], DraggableVirtualList.prototype, "dataSources", void 0);
+    __decorate([
         Provide()
     ], DraggableVirtualList.prototype, "Draggable", void 0);
     __decorate([

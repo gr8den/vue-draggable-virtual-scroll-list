@@ -13,6 +13,7 @@ const Broker = createBroker(VirtualList)
 @Component
 export default class DraggableVirtualList<T> extends Vue {
   @Prop() value!: Array<T>;
+  @Prop() dataSources: any;
 
   @Provide() Draggable = Draggable;
   @Provide() DraggablePolicy = DraggablePolicy;
